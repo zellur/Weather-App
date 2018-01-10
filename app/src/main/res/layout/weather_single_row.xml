@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:paddingLeft="15dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="#0a0809"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        tools:text="@string/app_name" />
+    <ImageView
+        android:id="@+id/iconTV"
+        android:tint="#15fc548d"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/descriptio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="casual"
+        android:textColor="#0a0809"
+        android:textSize="20dp"
+        tools:text="tt" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descriptio"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="cursive"
+        android:textColor="#0a0809"
+        android:textSize="30dp"
+        tools:text="tt" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="casual"
+        android:textSize="20dp"
+        android:textColor="#0a0809"
+        tools:text="tt" />
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/humidity"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="casual"
+        android:textColor="#0a0809"
+        tools:text="tt"
+        android:textSize="20dp"/>
+
+</LinearLayout>
